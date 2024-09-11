@@ -1,0 +1,44 @@
+.container-error {
+    max-width: 33.4375rem;
+    margin: 2.5rem auto;
+    padding: 1.25rem;
+    background-color: #d3d3d3;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+  
+    p {
+      margin-bottom: 1.25rem;
+      font-size: 1.125rem;
+      color: #1b1b1b;
+      font-weight: 600;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .container-error {
+      margin: 1.25rem 1.5rem;
+    }
+  }
+  
+
+  @media (max-width: 560px) {
+    .container-error {
+      margin: 10px 1rem;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .container-error {
+      margin: 5px 0.5rem;
+    }
+  }
