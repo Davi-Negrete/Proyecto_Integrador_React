@@ -25,7 +25,7 @@ const Nosotros = () => {
                 </p>
 
                 <p className="container__descripcion__p">
-                  Proponemos por el mejoramiento continuo de nuestros procesos mediante la capacitación y motivación de nuestro talento humano, satisfaciendo así las expectativas y requerimientos de nuestro clientes. Nuestra empresa realiza el proceso completo de fabricación, desde el diseño, la producción (Soldadura,  Mecanización, Electricidad, Montaje
+                  Proponemos por el mejoramiento continuo de nuestros procesos mediante la capacitación y motivación de nuestro talento humano, satisfaciendo de esa manera las importantes expectativas y requerimientos de nuestro clientes. Nuestra empresa realiza el proceso completo de fabricación, desde el diseño, la producción (Soldadura,  Mecanización, Electricidad, Montaje
                   final) hasta las pruebas finales del producto. Contando en la producción con modernas tecnologías de soldadura, maquinas CNC, prensa, entre otros.
                 </p>
 

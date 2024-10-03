@@ -15,9 +15,10 @@ const Inicio = () => {
        <main>
           <section className="section-cards">
             <header className="section-cards__header">
-              <h1>Bienvenido a "La Mueblería" la manera más fácil y rápida de decorar tu hogar!</h1>
-              <h2>Diseño de interiores online</h2>
-              <h3>Aquí encontrarás todos los diseños y muebles disponibles para tu casa:</h3>
+              <div className="section-cards__header__h1__h3">
+                <h1>¡Bienvenido al lugar más fácil y rápido para decorar tu hogar!</h1>
+                <h3 className="section-cards__header__h3">Estos son todos los diseños y muebles disponibles:</h3>
+              </div>
             </header>
 
 

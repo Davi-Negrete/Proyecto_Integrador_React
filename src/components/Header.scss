@@ -79,7 +79,7 @@
         font-weight: 700;
 
         &.active {
-            background-color: #c6c3c3;
+            background-color: #DED1B8;
             border-radius: 4px;
 
             &::after {
@@ -142,8 +142,9 @@
                 }
         
                 &:hover {
-                    background-color: #c6c3c3;
-                    border-radius: 4px;
+                    background-color: #3C3C3C;
+                    color: #fff;
+                    transition-duration: 1s;
                 }
         
                 &:hover::after {
@@ -151,7 +152,11 @@
                     transform: scale(1);
                     transform-origin: bottom left;
                 }
-        
+
+                &:not(:hover){
+                    transition: background-color 1s; /* transición en mouse out */
+                    text-decoration: none;
+                }
         
             }
         
