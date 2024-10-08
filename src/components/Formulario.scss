@@ -14,7 +14,7 @@
     .h1-alta {
         font-size: 1.4em;
 
-        @media screen and (min-width:1180px) {
+        @media screen and (min-width:680px) {
             text-align: center;
         }
 
@@ -201,17 +201,6 @@
         }
     }
 
-    .button__submit {
-        &:hover {
-            background-color: #0CC042;
-        }
-    }
-
-    .button__reset {
-        &:hover {
-            background-color: red;
-        }
-    }
 
     .button__submit, .button__reset {
         width: 18%;
@@ -243,6 +232,22 @@
             width: 41%;
         }
 
+    }
+
+    .button__submit {
+        &:hover {
+            background-color: #00d23f;
+            color: #252525;
+            transform: scale(1.25);
+            transform-origin: top right;
+            transition-duration: 1s;
+        }
+    }
+
+    .button__reset {
+        &:hover {
+            background-color: red;
+        }
     }
 
 }

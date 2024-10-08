@@ -27,8 +27,8 @@ const Tabla = () => {
         <tbody>
 
         {
-          productos && productos.map((producto) => (
-            <TablaFila key={producto.id} producto={producto} />
+          productos && productos.map((producto, idx) => (
+            <TablaFila key={producto.id+idx} producto={producto} />
           ))
         }
 

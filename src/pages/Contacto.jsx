@@ -1,6 +1,7 @@
 import './Contacto.scss'
 import useTitulo from "../hooks/useTitulo"
 import IconoWhatsApp from '../components/IconoWhatsApp'
+import { Link } from 'react-router-dom'
 
 const Contacto = () => {
 
@@ -50,7 +51,7 @@ const Contacto = () => {
 
         <label className="form-contacto__label-términos">
             <input className="form-contacto__input-términos" type="checkbox" required />
-            Acepto los <a className="form-contacto__link-términos" href="#">términos y condiciones</a>
+            Acepto los <Link className='form-contacto__link-términos' to="/">términos y condiciones</Link>
         </label>
 
         <input  className="form-contacto__submit" value="Enviar" type="submit" />

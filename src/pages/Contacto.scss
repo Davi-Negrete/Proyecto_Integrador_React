@@ -244,7 +244,7 @@
     &__label-términos {
         text-align: start;
 
-        @media screen and (min-width:885px) {
+        @media screen and (min-width:680px) {
             text-align: center;
         }
 
@@ -258,6 +258,7 @@
 
     &__submit {
         margin: 0.75rem auto;
+        text-align: center;
         width: 47.5%;
         padding: 0.4rem;
         font-size: 1em;
@@ -269,14 +270,13 @@
         font-weight: bold;
 
         &:hover {
-            color: #fff;
+            color: #000000;
             font-weight: bold;
-            background-color: #0CC042;
+            background-color: #00ce3e;
             box-shadow: 0 0 3px 2px #ffffff;
-            transform: scale(1.1025);
-            transform-origin: top center;
-            transition-duration: 0.5s;
-            
+            transform: scale(1.25);
+            transform-origin: top left;
+            transition-duration: 1s;    
         }
 
         @media screen and (min-width:480px) {

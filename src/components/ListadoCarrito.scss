@@ -110,17 +110,6 @@
     }
 }
 
-.boton-comprar-carrito {
-    &:hover {
-        background-color: #0CC042;
-    }
-}
-
-.boton-limpiar-carrito {
-    &:hover {
-        background-color: red;
-    }
-}
 
 .boton-comprar-carrito, .boton-limpiar-carrito {
     width: 15%;
@@ -163,6 +152,22 @@
         width: 25%;
     }
    
+}
+
+.boton-comprar-carrito {
+    &:hover {
+        background-color: #00d23f;
+        color: #252525;
+        transform: scale(1.25);
+        transform-origin: top left;
+        transition-duration: 1s;
+    }
+}
+
+.boton-limpiar-carrito {
+    &:hover {
+        background-color: red;
+    }
 }
 
 .btn-eliminarProductoDeCarrito {

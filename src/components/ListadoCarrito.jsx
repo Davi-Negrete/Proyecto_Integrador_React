@@ -2,14 +2,17 @@ import './ListadoCarrito.scss'
 import React, { useContext } from 'react'
 import CarritoContext from '../context/CarritoContext'
 import ItemCarrito from './ItemCarrito'
+import { notificacionSweetCarrito } from './ListadoCarrito.service'
 
 const ListadoCarrito = () => {
 
     const { carrito, limpiarCarritoContext, guardarCarritoContext } = useContext(CarritoContext)
 
     const handleComprar = () => {
-        console.log('Comprando los siguientes productos:')
-        guardarCarritoContext()
+        // console.log('Comprando los siguientes productos:')
+        guardarCarritoContext(carrito) // me guarda el carrito en  la base de datos en la collection carritos
+        limpiarCarritoContext() // me limpia el LocalStorage
+        notificacionSweetCarrito() // aviso de compra aprobada
     }
 
     const handleLimpiarCarrito = () => {

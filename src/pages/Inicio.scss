@@ -4,7 +4,7 @@
 
     &__header {
         padding: 0.25rem;
-        background: url("/img/Inicio/Imagen-Inicio.webp")no-repeat;
+        background: url("/img/Inicio/Imagen_Inicio.webp")no-repeat;
         background-size: cover;
         margin-bottom: 0;
         margin-top: 0;
@@ -191,7 +191,7 @@
             padding: 0;
 
             &__header {
-                background: url("/img/Inicio/Imagen-Inicio.webp")no-repeat;
+                background: url("/img/Inicio/Imagen_Inicio.webp")no-repeat;
                 background-size: cover;
                 text-align: center;
                 padding: 4rem;
@@ -495,7 +495,6 @@
    
     &__link {
         color: #fff;
-
     }
 
     @media screen and (min-width:576px) {
